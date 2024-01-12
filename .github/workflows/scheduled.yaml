@@ -1,8 +1,6 @@
 name: Cypress Tests
 
-on:
-  schedule:
-    - cron:  '* * * * *'
+on: workflow_dispatch
 
 jobs:
   cypress-run:
